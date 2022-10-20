@@ -1,0 +1,28 @@
+
+.mask {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  text-align: center;
+  border: 10px solid rgb(125, 110, 131);
+  overflow: hidden;
+  box-shadow: 1px 1px 10px #404040;
+}
+.bg__btn {
+  background-color: rgb(125, 110, 131);
+}
+.bg__form {
+  background-color: rgb(223, 211, 195);
+  border-radius: 5px;
+}
+.about__container {
+  background-color: #f8ede3;
+  font-family: Source Sans Pro;
+}
+.height__img {
+  height:725px;
+}
+.h3__hover {
+  color: orange;
+  text-shadow: #404040;
+}

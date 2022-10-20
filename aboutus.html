@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head>
+            <meta charset="UTF-8">
+            <meta lang="ES-AR">
+            <title>Airtravel.com</title>
+            <meta name="description" content="El blog más completo sobre los destinos turísticos más buscados en Internet.">
+            <meta name="keywords" content="blog, viajes, turismo, volar, destinos, vacaciones, viajar">
+            <meta name="author" content="CODEMATES">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:ital,wght@0,700;1,800&family=Secular+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+            <link rel="stylesheet" href="./css/aboutus.css">
+    </head>
+    <body class="about__container">
+        <img class="height__img img-fluid w-100 mb-5" src="./image/aboutus1.jpg" alt="about-us">
+        
+        <main class="about container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center mb-4">Nuestro equipo</h3>
+                    <p class="text-center">Aquí puedes saber quien hay detrás de CodeMates</p>
+                    <article class="col--auto d-flex flex-column flex-xl-row justify-content-evenly">
+                    <section>
+                        <h3 class="text-center fs-2 mb-3" >Guillermo</h3>
+                        <div class="mx-auto d-block mask mb-3">
+                            <img  width="640" height="424" src="./image/excursion.jpg" alt="Guillermo" />
+                        </div>
+                        <p class="text-center">Ama estar al aire libre disfrutando del paisaje.</p>
+                        <p class="text-center d-xl-none"> Fundador deCoMates.</p>
+                    </section>
+                    <section>
+                        <h3 class="text-center fs-2 mb-3">Serena</h3>
+                        <div class="mx-auto d-block mask mb-3">
+                        <img  width="640" height="424" src="./image/excursion.jpg" alt="Serena"/>
+                        </div>
+                        <p class="text-center">Nuesta guia, amante de la naturaleza.</p>
+                        <p class="text-center d-xl-none"> Fundadora deCoMates.</p>
+                    </section>
+                    <section>
+                        <h3 class="text-center fs-2 mb-3">Jose</h3>
+                        <div class="mx-auto d-block mask mb-3 img-fluid">
+                        <img width="640" height="424" src="./image/excursion.jpg" alt="Jose"/>
+                        <h3 class="h3__hover position-absolute top-50 start-50 translate-middle fw-bolder display-3">VIVI LA AVENTURA</h3>
+                        </div>
+                        <p class="text-center">Amante de los deportes acuaticos. </p>
+                        <p class="text-center d-xl-none"> Nuestro instructor de kayak.</p>
+                    </section>
+                    </article>
+                    <article class="form-container mt-4">
+                    <h2 class="text-center">Contacta con nosotros</h2>
+                    <div class="container-fluid d-flex justify-content-center align-items-center">
+                        <form class="bg__form row col-10 col-md-8 d-flex flex-column align-items-center mb-3" method="POST" data-netlify="true" name="contactForm">
+                            <fieldset class="col-10 mb-3">
+                                <label class="form-label" for="userName">Nombre:</label>
+                                <input class="form-control" type="text" id="userName" name="userName" placeholder="name" autocomplete="off" required />
+                            </fieldset>
+                            <fieldset class="col-10 mb-3">
+                                <label class="form-label" for="email">Email:</label>
+                                <input class="form-control" type="email" id="email" name="email" placeholder="email" autocomplete="off" required />
+                            </fieldset>
+                            <button class="bg__btn text-white col-6 col-sm-3 btn mb-3" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
