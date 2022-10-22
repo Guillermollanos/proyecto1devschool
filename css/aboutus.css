@@ -19,8 +19,10 @@
   background-color: #f8ede3;
   font-family: Source Sans Pro;
 }
-.height__img {
-  height:425px;
+.hero {
+ background-image: url(../image/aboutus1.jpg);
+ height: 30rem;
+ background-size: cover;
 }
 .container__left {
   width: 100%;
@@ -147,7 +149,9 @@
 }
 
 @media (min-width: 768px) {
-  
+  .hero {
+    height: 40rem;
+  }
   .container__left {
       width: 80%;
       margin: auto;
@@ -179,7 +183,6 @@
       margin: 280px 50px;
   
   }
-
 }
 .h3__hover {
   color: orange;

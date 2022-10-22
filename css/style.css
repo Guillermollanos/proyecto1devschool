@@ -8,6 +8,9 @@
     max-width: 300px;
     text-align: center;
 }
+.img__height {
+    height: 30rem;
+}
 form{
     position: relative;
     background: grey;
