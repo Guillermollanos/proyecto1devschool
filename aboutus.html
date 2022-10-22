@@ -50,22 +50,31 @@
                         <p class="text-center d-xl-none"> Nuestro instructor de kayak.</p>
                     </section>
                     </article>
-                    <article class="form-container mt-4">
-                    <h2 class="text-center">Contacta con nosotros</h2>
-                    <div class="container-fluid d-flex justify-content-center align-items-center">
-                        <form class="bg__form row col-10 col-md-8 d-flex flex-column align-items-center mb-3" method="POST" data-netlify="true" name="contactForm">
-                            <fieldset class="col-10 mb-3">
-                                <label class="form-label" for="userName">Nombre:</label>
-                                <input class="form-control" type="text" id="userName" name="userName" placeholder="name" autocomplete="off" required />
-                            </fieldset>
-                            <fieldset class="col-10 mb-3">
-                                <label class="form-label" for="email">Email:</label>
-                                <input class="form-control" type="email" id="email" name="email" placeholder="email" autocomplete="off" required />
-                            </fieldset>
-                            <button class="bg__btn text-white col-6 col-sm-3 btn mb-3" type="submit">Enviar</button>
-                        </form>
+                    <div class="container__left">
+                        <form class="container">
+                            <h3 class="container___title">SOPORTE</h3>
+                            <li class="container__section">
+                                <label class="container__section-label">E-mail</label>
+                                <input class="container__section-input" type="email" name="user-email" placeholder="Introduzca su email" required>
+                            </li>
+                            <li class="container__section">
+                                <label class="container__section-label">comentario</label>
+                                <input class="container__section-input" type="text" name="user-text" placeholder="Introduzca su comentario" required>
+                            </li>
+                            <div class="container-2">
+                                <input class="container-2__btn1" type="submit" name="submit" value="Ingresar">
+                                o
+                                <button class="container-2__btn2">
+                                    <img class="container-2__btn2-img" src="./image/logo-fb.png" alt="fb-logo">
+                                    <span class="container-2__btn-sp">Ingresar con Facebook</span> 
+                                </button>
+                                <button class="container-2__btn3">
+                                    <img class="container-2__btn3-img" src="./image/logo-gl.png" alt="gl-logo">
+                                    <span class="container-2__btn-sp">Ingresar con Google</span> 
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    </article>
                 </div>
             </div>
         </main>

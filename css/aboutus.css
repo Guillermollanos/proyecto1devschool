@@ -20,7 +20,166 @@
   font-family: Source Sans Pro;
 }
 .height__img {
-  height:725px;
+  height:425px;
+}
+.container__left {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.container {
+  background-color: #DFD3C3;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+}
+
+.container___title {
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.container__section {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.container__section-label {
+  padding: 5px;
+}
+
+.container__section-input {
+  background-color: #F8EDE3;
+  border: none;
+  height: 30px;
+  padding: 5px;
+}
+
+.container-fp {
+  margin: 5px;
+}
+
+.container-fp__link{
+  color: black;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.container-2__btn1 {
+  background-color: #7D6E83;
+  color: white;
+  width: 80%;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  margin: 5px;
+}
+
+.container-2__btn2 {
+  background-color: #3b5998;
+  color: white;
+  width: 80%;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.container-2__btn-sp {
+  margin-left: 0;
+}
+
+.container-2__btn2-img {
+  width: 20px;
+}
+
+.container-2__btn3 {
+  background-color: #fff;
+  color: #000;
+  width: 80%;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.container-2__btn3-img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.container-2__btn1,
+.container-2__btn2,
+.container-2__btn3 {
+  cursor: pointer;
+}
+
+.container-2__btn1:hover {
+  box-shadow: 0 4px 16px #7D6E83;
+  transition: all 0.2s ease;
+}
+
+.container-2__btn2:hover{
+  box-shadow: 0 4px 16px #3b5998;
+  transition: all 0.2s ease;
+}
+.container-2__btn3:hover {
+  box-shadow: 0 4px 16px rgb(94, 94, 94);
+  transition: all 0.2s ease;
+}
+
+.container__right {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  
+  .container__left {
+      width: 80%;
+      margin: auto;
+      margin-top: 150px;
+      border-radius: 25px ;
+      }
+  
+  .container {
+      border-radius: 25px;
+      }
+  .container-2__btn1,
+  .container-2__btn2,
+  .container-2__btn3 {
+      width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .container__left{
+      width: 80%;
+      padding-left: 100px;
+  }
+  .container__right {
+      height: 100;
+      width: 500px;
+      display: flex;
+      flex-direction: column ;
+      justify-content: center;
+      align-items: center;
+      margin: 280px 50px;
+  
+  }
+
 }
 .h3__hover {
   color: orange;
