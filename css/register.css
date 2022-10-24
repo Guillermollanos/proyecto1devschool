@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --banners: #ddd2c2;
+    --buttons: #7a6d80;
+}
+
+.container__main {
+    padding: 10px;
+}
+
+.container__left {
+    width: 100%;
+}
+
+.container {
+    background-color: var(--banners);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.container___title {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.container__section {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 95%;
+}
+
+.container__section-label {
+    padding: 5px;
+}
+
+.container__section-input {
+    border: none;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+.container__checkbox {
+    padding: 5px;
+    display: flex;
+}
+
+.container__checkbox-inp {
+    margin-right: 10px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: end;
+    padding: 5px 10px;
+}
+
+.container-2__btn {
+    background-color: var(--buttons);
+    color: white;
+    width: 60%;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-2__btn:hover {
+    box-shadow: 0 4px 16px var();
+    transition: all 0.2s ease;
+}
+
+.container__right {
+    display: none;
+
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px) {
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        margin-top: 150px;
+        border-radius: 25px;
+    }
+    .container__section {
+        padding-left: 20px;
+    }
+    .container-2__btn{
+        width: 30%;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1024px) {
+    .container__main {
+        display: flex;
+    }
+    .container__left{
+        width: 65%;
+        padding-left: 35px;
+    }
+    .container__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        width: 35%;
+        padding: 15px 20px 0 15px ;
+        margin-top: 200px;
+        
+    }
+    .img-car1 {
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    .cont-img {
+        overflow: hidden;
+    }
+
+}
